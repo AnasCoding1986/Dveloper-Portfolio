@@ -9,10 +9,13 @@ body{
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
-    color: var(--White-Color, #FFF);
+    color: #FFF;
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
+}
+main section{
+    margin-top: 130px;
 }
 .section-titile{
     color: #181818;
@@ -88,12 +91,96 @@ nav a{
 }
 
 /* =====Main===== */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* =====About===== */
 .about{
     border-radius: 10px;
-    background: #FFF8F3;
+    background: #fbece3;
     padding: 130px 150px;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+.about-info .info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.about-info .info-description{
+    color: #474747;
+    font-size: 20px;    
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+/* =====What I Do===== */
+#what-i-do-description{
+    margin: 20px 200px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.skill{
+    text-align: center;
+    border-radius: 5px;
+    background: #ebe7e7;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* =====Reesume===== */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
+}
+.resume-item{
+    margin-bottom: 40px;
+}
+.resume-item-title{
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-item-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    max-width: 80%;
+}
+.resume-column hr{
+    margin: 0px 50px 10px 30px;
+}
+.download-cv{
+    text-align: center;
 }
